@@ -15,6 +15,12 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
+ACPLSDKDCXHttpSession	Downloads		Music
+Applications		Dropbox			Pictures
+Creative Cloud Files	IACPLHttpTransferClient	Public
+Desktop			Library			Sites
+Documents		Movies
+MacBook-Air:~ Jessy$ 
 ----------
 Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 
@@ -23,8 +29,10 @@ Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 2a. Type: 
 
 $ ls D<TAB>
-
+ls: D: No such file or directory
+MacBook-Air:~ Jessy$ 
 What happens?  Describe it below.
+It says that there is no file or directory.
 ----------
 Desktop/    Documents/  Downloads/
 
@@ -34,11 +42,15 @@ Desktop/    Documents/  Downloads/
 ----------
 rdrgeerwtger yg erwy brg
 
-
+MacBook-Air:~ Jessy$ rdrgeerwtger yg erwy brg
+-bash: rdrgeerwtger: command not found
+MacBook-Air:~ Jessy$ 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+MacBook-Air:~ Jessy$ rdrgeerwtger yg erwy brg
+-bash: rdrgeerwtger: command not found
+MacBook-Air:~ Jessy$ 
 
 
 ==========
@@ -48,6 +60,9 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+total 0
+drwxr-xr-x    2 Jessy  staff     64 Feb 13 15:50 ACPLSDKDCXHttpSession
+drwx------    5 Jessy  staff    160 Jan 30 09:54 Applications
 
 
 
@@ -58,7 +73,9 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+total 424
+drwxr-xr-x@  9 Jessy  staff     288 Jan 16 17:23 Adobe
+drwxr-xr-x@ 12 Jessy  staff     384 Dec 18 14:44 Arduino
 
 
 ==========
@@ -68,7 +85,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+~ Jessy$ ls -l Documents
 
 
 ==========
@@ -78,7 +95,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+No command was repeated. 
 
 
 ==========
@@ -89,7 +106,8 @@ $ ls /b<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+ls: /b: No such file or directory
+MacBook-Air:~ Jessy$ 
 
 ==========
 8.  Type:
@@ -99,37 +117,38 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: doesnotexist: No such file or directory
+MacBook-Air:~ Jessy$ 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+up and enter
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+ls ans -a
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+the tab key 
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+Documents
 
 ==========
 14.  Type:
@@ -139,7 +158,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -149,7 +168,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -158,3 +177,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+ls is the command 
+-a is a flag 
+Desktop is the argument
+$ is the prompt 
