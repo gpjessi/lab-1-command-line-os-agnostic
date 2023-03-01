@@ -24,7 +24,7 @@ Follow the instructions line-by-line.
 
 $ pwd
 
-Check that the output ends with mtec1002 (something like this: /Users/[yourname]/mtec1003 OR /home/[yourname]/mtec1003).
+Check that the output ends with mtec1003 (something like this: /Users/[yourname]/mtec1003 OR /home/[yourname]/mtec1003).
 
 If it doesn't start at #1 again, or ask for help before moving on!
 
@@ -136,7 +136,7 @@ Copy and paste the output into the space below.
 ==========
 14. Type:
 
-$ cd /mnt (if your on linux) or cd /Volumes (if your on a mac)
+$ cd /mnt (if your on linux) or cd /Volumes (if your on mac) or cd /c if (your on windows)
 $ pwd
 
 Copy and paste the output into the space below.
@@ -167,7 +167,7 @@ Copy and paste the output into the space below.
 
 
 ==========
-16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
+16a. Make sure you're back in your mtec1003, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
 
@@ -276,4 +276,5 @@ What command did you use?
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
+NOTE: If you don't have a Downloads directory do the following: mkdir ~/Downloads, then answer this question.
 ----------
